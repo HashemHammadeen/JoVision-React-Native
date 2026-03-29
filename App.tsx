@@ -1,12 +1,15 @@
 import React from 'react';
-import { SafeAreaProvider } from 'react-native-safe-area-context';
-import {StyleSheet } from 'react-native';
-import Task16 from './Tasks/Task16';
+import { StyleSheet } from 'react-native';
+import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
+import Task17 from './Tasks/Task17';
 
 export default function App() {
   return (
-    <SafeAreaProvider style={styles.container}>
-      <Task16 />
+    <SafeAreaProvider>
+      {/* This SafeAreaView is now the "modern" version */}
+      <SafeAreaView style={styles.container}>
+        <Task17 />
+      </SafeAreaView>
     </SafeAreaProvider>
   );
 }
