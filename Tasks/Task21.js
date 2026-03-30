@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { View, Button, StyleSheet } from 'react-native';
-import MyFunctionPage from '../Components/MyFunctionPage';
+import MyFunctionPage from '../Components/MyFunctionalComponent_Task21';
 
 const Task21 = () => {
   const [isVisible, setIsVisible] = useState(false);
