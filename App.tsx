@@ -1,7 +1,7 @@
 import React from 'react';
 import { StyleSheet } from 'react-native';
 import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
-import Task from './Tasks/Task24';
+import Task from './Tasks/Task25';
 
 export default function App() {
   return (
